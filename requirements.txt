@@ -1,5 +1,22 @@
-gradio
-requests
-wikipedia
-chromadb
-sentence-transformers
+# === Core Web Framework ===
+Django>=4.2
+gunicorn
+
+# === NLP & AI ===
+torch>=1.12
+transformers>=4.30
+sentence-transformers>=2.2.2
+
+# === Semantic Search / Vector DB ===
+faiss-cpu
+
+# === PDF Text Extraction ===
+pymupdf  # (PyMuPDF)
+
+# === Text Processing & Utilities ===
+numpy
+scikit-learn
+tqdm
+regex
+nltk
+spacy
